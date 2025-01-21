@@ -1,0 +1,10 @@
+inline css
+internal css
+external css
+
+
+
+borck element 
+ p, div , h1
+div = division
+section	

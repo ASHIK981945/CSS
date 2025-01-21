@@ -1,0 +1,483 @@
+
+Niraj
+Niraj Baniya
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.box-1 {
+  height: 100vh;
+  width: 100%;
+
+}
+
+#logo1 {
+  height: 40px;
+  width: 50px;
+
+  border: none;
+}
+ html{
+  scroll-behavior: smooth;
+ }
+/* Front page Area Start */
+
+.container-2 {
+  
+  text-align: center;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.75;
+ /* background: url(./firstPage1.webp) no-repeat center center/cover;
+  animation: slider 70s infinite linear;*/
+
+
+}
+
+#carouselExampleCaptions{
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+.imageSizes{
+     height: 100%;
+     width: 100%;
+}
+
+ /*  @keyframes slider {
+
+  0% {
+    background: url(./firstPage1.webp) no-repeat center center/cover;
+  }
+
+  20% {
+    background: url(./firstPage2.webp) no-repeat center center/cover;
+  }
+
+  40% {
+    background: url(./firstPage3.jpg) no-repeat center center/cover;
+  }
+
+  60% {
+    background: url(./firstPage4.webp) no-repeat center center/cover;
+  }
+
+  80% {
+    background: url(../IMAGE/yogapic11.jpg) no-repeat center center/cover;
+  }
+}
+
+.content-area {
+  
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}*/
+  
+/* Front page Slider*/
+
+
+
+/*Second Page*/
+.container-3 {
+  margin-top: 70px;
+  height: 75vh;
+  width: 95%;
+  display: flex;
+
+
+}
+
+.second-box1 {
+  height: 100%;
+  width: 55%;
+  text-align: center;
+  padding: 30px;
+}
+
+.Paragraph {
+
+  margin-top: 150px;
+
+}
+
+.second-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+}
+
+.font-A {
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+
+}
+
+.font-B {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#second-img {
+  height: 400px;
+  width: 500px;
+  align-items: center;
+}
+
+
+
+
+.container-4 {
+  text-align: center;
+  height: 30vh;
+  width: 100%;
+
+
+}
+
+.line1 {
+  padding-top: 60px;
+
+}
+
+/*Client's feedback area */
+
+.main-Slider{
+  display: flex;
+  justify-content: space-around; 
+  height: 90vh;
+  width: 100vw;
+}
+.box-slider1{
+  margin-top: 30px;
+  height: 70vh;
+  width : 22%;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #4070F4;
+}
+
+.box-slider1:hover{
+  box-shadow: 10px 10px 10px gray ;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.box-part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+
+  
+}
+.box-part2{
+  height: 50%;
+  width: 100%;
+  border-radius: 30px 30px 30px 30px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.person-name{
+ padding-top: 10px;
+  
+}
+
+.person-feedback{
+  padding: 0px  15px;
+}
+.btn-view{
+  border: none;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-color: #4070F4 ;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-view:hover{
+ background: #265DF2;
+}
+.profile-pic{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 4px solid white;     
+}
+
+.profile-img{
+  border-radius: 50%;
+  height: 142px;
+  width: 142px;
+
+  
+}
+
+
+
+/*featured Area*/
+.container-5 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 70vh;
+  width: 100%;
+
+}
+
+.featured-box-A {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  width: 45%;
+  flex-direction: column;
+  
+}
+
+.featured-box1 {
+  overflow: hidden;
+  height: 55vh;
+  width: 85%;
+  
+}
+
+.featured-box2 {
+  height: 20vh;
+  width: 40%;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.appoinment1 {
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.appoinment1:hover {
+  color: #007bff;
+}
+
+.featured-box-img {
+  height: 100%;
+  width: 100%;
+}
+
+.featured-box-img:hover {
+  scale: 1.1;
+  transition: all 0.8s ease-in-out;
+
+}
+
+
+
+/* OUr blogs css part */
+.main-Blog{
+  display: flex;
+  justify-content: space-around; 
+  height: 90vh;
+  width: 100%;
+
+}
+.blog-slider1{
+  margin-top: 30px;
+  height: 75vh;
+  width : 25%;
+  border-radius: 10px 10px 10px 10px;
+  
+}
+
+.blog-slider1:hover{
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.blog-part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+.blog-part2{
+  height: 50%;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.calender{
+  display: flex;
+}
+
+.calender-icon{
+  margin-right: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.person-name{
+ padding-top: 10px;
+  
+}
+.person-name:hover{
+ color:  #007bff;
+  
+}
+
+.person-feedback{
+  padding: 0px  10px;
+}
+
+.blog-pic{
+  height: 90%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+      
+}
+
+
+.blog-img{
+  
+  height: 100%;
+  width: 100%;
+
+}
+
+.blog-img:hover{
+  scale: 1.2;    
+  transition: all 0.8s ease;
+}
+
+
+/*last page 
+*/
+
+
+.last-page-area{
+  background-color: rgb(68, 59, 59);
+  background: url(LaspageImg.jpg)no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.last-page{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-around;
+  
+}
+
+.last-aboutUs{
+  text-align: center;
+  height: 70%;
+  width: 25%;
+  color: white;
+}
+
+
+.last-contactUs{
+  color: white;
+  text-align: center;
+  height: 70%;
+  width: 25%;
+}
+.footer-area{
+color: #0093df;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+}
+
+.main-form-area{
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+#Keep-in-touch{
+  color: white;
+}
+
+.fill{
+  height: 40px;
+  width: 270px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  border-style: none;
+  border-color: white;
+  text-align: center;
+}
+.submit-btn{
+  height: 40px;
+  width: 270px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+  border: none; 
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.8s ease;
+  
+}
+.submit-btn:hover{
+  color: white;
+  background-color: #007bff;
+}
+.icon-area{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+
+  
+}
+
+.all-icon{
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.4s all ease;
+  font-size: 35px;
+}
+
+.all-icon:hover{
+  scale: 1.2;
+   
+}
+
+#copy-right{
+  font-weight: 100;
+  color: white;   
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+
+}

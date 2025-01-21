@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navigation{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-1{
+
+    width: 70px;
+    height: 70px;
+    background-image: url(R.png);
+    background-size: cover;
+    background-position:center ;
+}
+.nav-2 a{
+   
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 11%;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    padding-left: 50PX;
+}
+
+.nav-3 span{
+   
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10%;
+    margin-left: 10px;
+    color: black;
+    padding-left: 40PX;
+}
+.main{
+    background-image: url(firstpage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 100vw;
+    height: 84vh;
+    display: flex;
+    background-position: center;
+          }
+         
+            
+          
+          .container-1 h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 61px ;
+            text-align: center;
+            padding-top: 10px;
+            color: white ;
+            background-color: rgb(46, 42, 42);
+            margin: 70px 70px  70px 70px;
+        
+            
+        }     
+        .button1{
+            background-color: white;
+            color: black;
+            font-size: 25px;
+            margin-left:25px ;
+            padding: 25px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 40px;
+
+          }
+        h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 55px;
+            text-align: center;
+            padding-top: 10px;
+            color: rgb(0, 0, 0);
+            margin: 70px 70px  70px 70px;
+        }
+    .P{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        color: rgb(0, 0, 0);
+       
+    }
+    .a{height: 100vh;
+        width: 100vw;
+         display:flex;
+         
+         justify-content: space-around;
+         align-items: center;
+         background-color: white;
+     }
+     .b{
+        height: 450px;
+        width: 600px;
+         background-image: url(b.jpg);
+         background-size: cover;
+         background-repeat: no-repeat ;
+        }
+        .c{
+            height: 450px;
+        width: 600px; 
+         background-image: url(c.jpeg);
+         background-size: cover;
+         background-repeat: no-repeat ;
+         
+        }
+        .d{
+            height: 450px;
+        width: 600px;
+        background-image: url(d.jpg);
+        background-size: cover;
+        background-repeat: no-repeat ;
+        }
+.P1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 180px;
+}
+.d .ok{
+    color: yellow;
+}
+.c .ok{
+    color: yellow;
+}
+.b .ok{
+    color: yellow;
+}
+
+
+.join{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p2{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+button.btn{
+       position: relative;
+    display: inline-block;
+    padding: 0 12x;
+    font-size: 1.65rem;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-family: Univers LT W01_67 Bold_1476016,proxima-nova,Helvetica,Arial,sans-serif;
+    border-radius: 40px;
+    border-color: black;
+}
+.p4{
+box-sizing: border-box;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+text-align: center;
+color:white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 30px;
+}
+.p3{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px ;
+text-align: center;
+color: white ;
+margin: 30px;
+}
+.p5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 39px ;
+    text-align: center;
+    color: white ;
+    margin: 30px;
+}
+.box1{
+    background-image: url(cap0241_brand_website_images_600x500_main-image-lhs.jpg);
+    height: 450px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat ;
+
+
+}
+
+
+
+.btn1{
+    background-color:yellow;
+    color: black;
+    /* font-size: 25px; */
+    margin-left:170px ;
+    padding: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+           
+          
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+   }
+   .box1{
+    /* box-sizing: border-box; */
+    height: 90vh;
+    width: 50%;
+    border: 1px solid white;
+    
+   }
+   
+   .box2{
+    
+    /* box-sizing: border-box; */
+    height: 90vh;
+    width: 50%;
+    border: 1px solid white;
+   }
+   .box-area1{
+    display: flex;
+   
+    height: 45vh;
+    width: 100%;
+    background-color: white;
+   }
+
+   .box1-pic1{
+    
+    height: 45vh;
+    width: 33.3%;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .box1-pic2{
+    /* box-sizing: border-box; */
+    height: 45vh;
+    width: 33.3%;
+    background-image: url(challenge_image_200x250.jpg);
+    background-size: cover;
+    background-position:center ;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 15px;
+
+   }
+   .box1-pic3{
+   
+    height: 45vh;
+    width: 33.3%;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+   }
+
+
+   .box-area2{
+    display: flex;
+    
+    height: 45vh;
+    width: 100%;
+    background-color:white;
+
+   }
+
+   .box2-pic1{
+    
+    height: 45vh;
+    width: 33.3%;
+    background-image: url(cap0241_brand_website_images_200x250_trades-copy.jpg);
+    background-size: cover;
+    background-position:center ;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 15px;
+   }
+   .box2-pic2{
+   
+    height: 45vh;
+    width: 33.3%;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+   }
+   .box2-pic3{
+   
+    height: 45vh;
+    width: 33.3%;
+    background-image: url(cap0241_brand_website_images_200x250_find-where-you-belong.jpg);
+    background-size: cover;
+    background-position:center ;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 15px;
+   }
+   .colors{
+    color: blue;
+    font-size: 60px;
+    display: block;
+    font-weight: 900;
+   }
+  
+.icons{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 55px;
+    text-align: center;
+}
+.icons1{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 55px;
+    text-align: center;
+}
+.last1{
+    height: 45%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   }
+   
+   
+   .last-pic1{
+    box-sizing: border-box;
+    height: 45vh;
+    width: 25%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .last-pic2{
+    box-sizing: border-box;
+    height: 45vh;
+    width: 25%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .last-pic3{
+    box-sizing: border-box;
+    height: 45vh;
+    width: 25%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .last-pic4{
+    box-sizing: border-box;
+    height: 45vh;
+    width: 25%;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+   }
+  
+.last-button{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+    margin-right: 110px;
+    padding: 5px;
+}
